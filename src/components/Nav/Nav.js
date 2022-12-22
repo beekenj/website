@@ -2,6 +2,16 @@ import './Nav.css';
 
 export default function Nav() {
     return (
-        <nav>Link 1</nav>
+        <nav>
+            <div>
+                Link 1
+            </div>
+            <div>
+                Link 2
+            </div>
+            <div>
+                Link 3
+            </div>
+        </nav>
     )
 }

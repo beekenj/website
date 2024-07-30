@@ -1,17 +1,12 @@
 import './Nav.css';
+import NavLink from '../NavLink/NavLink.js';
+
+var links = ['Background', 'Skills', 'Projects'];
 
 export default function Nav() {
     return (
         <nav>
-            <div>
-                Link 1
-            </div>
-            <div>
-                Link 2
-            </div>
-            <div>
-                Link 3
-            </div>
+            {links.map(link => <NavLink link={link} />)}
         </nav>
     )
 }
